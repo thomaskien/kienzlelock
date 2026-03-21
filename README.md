@@ -53,6 +53,7 @@ https://127.0.0.1:8443/register
   - **gesperrt** -> Benutzer erkennen, ggf. PIN verlangen, dann freigeben
   - **offen** -> wieder sperren
 - Damit arbeitet das System als **Toggle**.
+- launcher-shortcut auf das terminal-kommando: kienzlelock-lock führt die sperre aus
 
 ## Komponenten
 
