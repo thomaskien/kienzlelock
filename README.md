@@ -1,6 +1,10 @@
 # kienzlelock
 
+<img src="https://github.com/thomaskien/kienzlelock/blob/main/kienzlelock.png?raw=true" alt="drawing" width="600" />
+
+
 Kompakte README für Installation, Betrieb und Notfallzugriff.
+
 
 ## Zweck
 
