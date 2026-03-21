@@ -124,7 +124,7 @@ Das passt gut zu einfachen Karten oder Schlüsselanhängern, wie sie bei MIFARE-
 
 Der aktuelle Stand ist pragmatisch PC/SC-basiert:
 
-- **ACR122U PICC** für UID-basierte kontaktlose Tags
+- **ACR122U PICC** für UID-basierte kontaktlose Tags - leider muss man ihn zur korrekten Initialisierung einmal abziehen und Stecken
 - **YubiKey per USB-CCID** auf derselben PC/SC-Basis, wenn der YubiKey als Reader erscheint
 - Unterstützung für den als Stabil geltenden **Sony RC-S380/S**
 
