@@ -21,7 +21,8 @@ Die Benutzer-Session läuft nach dem Autologin bereits vollständig im Hintergru
 Installer als root ausführen:
 
 ```bash
-sudo bash install_kienzlelock_v1.3.1.sh
+chmod +x install_kienzlelock.sh
+sudo bash install_kienzlelock.sh
 ```
 
 Danach:
