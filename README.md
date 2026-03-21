@@ -44,6 +44,12 @@ Registrierungsseite lokal am Gerät öffnen:
 https://127.0.0.1:8443/register
 ```
 
+Statt Screensaver:
+
+```text
+xautolock -time 5 -locker -resetsaver kienzlelock-lock
+```
+
 ## Grundprinzip
 
 - Die Session bleibt offen.
