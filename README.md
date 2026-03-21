@@ -126,6 +126,7 @@ Der aktuelle Stand ist pragmatisch PC/SC-basiert:
 
 - **ACR122U PICC** für UID-basierte kontaktlose Tags
 - **YubiKey per USB-CCID** auf derselben PC/SC-Basis, wenn der YubiKey als Reader erscheint
+- Unterstützung für den als Stabil geltenden **Sony RC-S380/S**
 
 Wichtig:
 
