@@ -14,6 +14,8 @@ Die Benutzer-Session läuft nach dem Autologin bereits vollständig im Hintergru
 ## Zielplattform
 
 - Ubuntu LTS 24
+- billiger NFC-Leser
+- irgendein RFID-Tag wie Bankkarte, Aufkleber, Schlüsselanhänger
 - X11 / XFCE
 - LightDM mit Autologin
 - lokaler HTTPS-Webserver auf `127.0.0.1:8443`
