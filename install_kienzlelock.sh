@@ -2024,7 +2024,7 @@ class OverlayApp:
         if not state:
             self._show()
             self._set_mode('locked')
-            self._set_message('kienzlelock startet …')
+            self._set_message('kienzlelock gestartet: Bitte Karte!')
             self._set_detail('')
             self.root.after(300, self._poll)
             return
