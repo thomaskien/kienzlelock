@@ -13,7 +13,7 @@ Die Benutzer-Session läuft nach dem Autologin bereits vollständig im Hintergru
 
 ## Zielplattform
 
-- Ubuntu LTS
+- Ubuntu LTS 24
 - X11 / XFCE
 - LightDM mit Autologin
 - lokaler HTTPS-Webserver auf `127.0.0.1:8443`
@@ -63,6 +63,7 @@ xautolock -time 5 -locker -resetsaver kienzlelock-lock
   - **gesperrt** -> Benutzer erkennen, ggf. PIN verlangen, dann freigeben
   - **offen** -> wieder sperren
 - Damit arbeitet das System als **Toggle**.
+- Alternativ **presence**-Modus: Sobald die karte weg ist wird wieder gesperrt, die garte muss die ganze zeit aufliegen.
 - launcher-shortcut auf das terminal-kommando: kienzlelock-lock führt die sperre aus
 
 ## Komponenten
@@ -135,9 +136,9 @@ Das passt gut zu einfachen Karten oder Schlüsselanhängern, wie sie bei MIFARE-
 
 Der aktuelle Stand ist pragmatisch PC/SC-basiert:
 
-- **ACR122U PICC** für UID-basierte kontaktlose Tags - leider muss man ihn zur korrekten Initialisierung einmal abziehen und Stecken
+- **ACR122U PICC** für UID-basierte kontaktlose Tags -> für korrekte initialisierung ist eine beim booten aufliegende karte optimal (workaround repariert die fehlerhafte initialisierung)
 - **YubiKey per USB-CCID** auf derselben PC/SC-Basis, wenn der YubiKey als Reader erscheint
-- Unterstützung für den als Stabil geltenden **Sony RC-S380/S**
+- Unterstützung für den als ohne workarounds sehr Stabil geltenden **Sony RC-S380/S** vorbereitet (meiner noch nicht geliefert)
 
 Wichtig:
 
