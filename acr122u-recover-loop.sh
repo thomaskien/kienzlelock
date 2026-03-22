@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+
+echo ######KARTE AUFLEGEN!!!########
+
+
 set -u
 
 
