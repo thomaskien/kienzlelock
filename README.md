@@ -1,7 +1,7 @@
 # kienzlelock
 
 <img src="https://github.com/thomaskien/kienzlelock/blob/main/kienzlelock.png?raw=true" alt="drawing" width="600" />
-<img src="https://github.com/thomaskien/kienzlelock/blob/main/85FADAE3-2664-4C04-BBF0-5A6B0E8AA9D4_1_105_c.jpeg" alt="drawing" width="600" />
+<img src="https://github.com/thomaskien/kienzlelock/blob/main/IMG_3090.jpeg?raw=true" alt="drawing" width="600" />
 
 
 Kompakte README für Installation, Betrieb und Notfallzugriff.
